@@ -11,17 +11,17 @@ RPi.GPIO
 
 ## Circuit
 For transmitter:
-LED Anode -> GPIO18
-LED Cathode -> Resistor
-Resitor -> GND
+LED Anode -> GPIO18  
+LED Cathode -> Resistor  
+Resitor -> GND  
 
 ![alt text](tx.png)
 
 for Receiver:
-PD Cathode -> 5V
-PD Anode -> PotentioMeter 
-PotentioMeter -> GND
-PD Anode -> GPIO17
+PD Cathode -> 5V  
+PD Anode -> PotentioMeter   
+PotentioMeter -> GND  
+PD Anode -> GPIO17  
 ![alt text](rx.png)
 
  ## Usage 
@@ -33,3 +33,9 @@ for transmitter program
 ```bash
 python3 vlc.py
 ```
+## Result
+Transmitter send data:  
+![alt text](send.png)
+
+Receiver receive the data:  
+![alt text](receive.png)
