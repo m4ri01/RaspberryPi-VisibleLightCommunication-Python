@@ -35,7 +35,7 @@ python3 vlc.py
 ```
 ## Result
 Transmitter send data:  
-![alt text](send.png)
+![alt text](send.PNG)
 
 Receiver receive the data:  
-![alt text](receive.png)
+![alt text](receive.PNG)
